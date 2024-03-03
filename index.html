@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="heading">
+            <i class="heading__icon fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Nhập vị trí của bạn" class="heading__input">
+            <button class="heading__btn fa-solid fa-magnifying-glass"></button>
+        </div>
+        
+        <div class="weather__not-found">
+            <img class="weather__not-found--img" src="img/404.png">
+            <p class="weather__not-found--lable">Vị trí không hợp lệ!</p>
+        </div>
+
+        <div class="weather__box">
+            <img class="weather__box--img" src="">
+            <p class="weather__box--temperature"></p>
+            <p class="weather__box--description"></p>
+        </div>
+
+        <div class="weather__details">
+            <div class="weather__details--humidity">
+                <i class="weather__details--icon fa-solid fa-water"></i>
+                <div class="weather__details--text">
+                    <span></span>
+                    <p class="weather__details--lable">Độ ẩm</p>
+                </div>
+            </div>
+            <div class="weather__details--wind">
+                <i class="weather__details--icon fa-solid fa-wind"></i>
+                <div class="weather__details--text">
+                    <span class="weather__details--lable"></span>
+                    <p>Tốc độ gió</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
