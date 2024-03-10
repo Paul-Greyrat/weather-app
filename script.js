@@ -10,7 +10,7 @@ search.addEventListener('click', () => {
     const city = document.querySelector('.heading__input').value;
 
     if (city === '')
-        return;
+        return; 
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}&units=metric&lang=vi`)
         .then(response => response.json())
