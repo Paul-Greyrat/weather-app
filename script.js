@@ -1,7 +1,7 @@
 const container = document.querySelector('.container');
 const search = document.querySelector('.heading__btn');
 const weatherBox = document.querySelector('.weather__box');
-const weatherDetails = document.querySelector('.weather__details');
+const weatherDetails = document.querySelector('.weather__details'); 
 const error404 = document.querySelector('.weather__not-found');
 
 search.addEventListener('click', () => {
